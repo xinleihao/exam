@@ -9,7 +9,7 @@
 * [第2题](https://github.com/xinleihao/exam/blob/gh-pages/2-jquery.html)
   [第2题效果](https://xinleihao.github.io/exam/2-jquery.htmll)
 * [第3题](https://github.com/xinleihao/exam/blob/gh-pages/3-jquery.html)
-  [第3题效果](https://xinleihao.github.io/exam/3-jquery.html))
+  [第3题效果](https://xinleihao.github.io/exam/3-jquery.html)
 * [第4题](https://github.com/xinleihao/exam/blob/gh-pages/4-jquery.html)
   [第4题效果](https://xinleihao.github.io/exam/4-jquery.html)
 * [第6题](https://github.com/xinleihao/exam/blob/gh-pages/6-jqueryui.html)

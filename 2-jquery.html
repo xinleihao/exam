@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>jquery</title>
+    <style media="screen">
+      table {
+        border: 1px solid red;
+        text-align: center;
+        border-collapse: collapse;
+      }
+      th,td {
+        border: 1px solid red;
+        text-align: center;
+      }
+    </style>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("#table #tr").hover(function(){
+          $(this).css("background-color", "yellow");
+        },function(){
+          $("#table #tr").css("background-color", "white");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <table id="table">
+    <tr>
+      <th>姓名</th>
+      <th>性别</th>
+      <th>年龄</th>
+    </tr>
+    <tr id="tr">
+      <td>赵</td>
+      <td>钱</td>
+      <td>孙</td>
+    </tr>
+    <tr id="tr">
+      <td>男</td>
+      <td>女</td>
+      <td>男</td>
+    </tr>
+    <tr id="tr">
+      <td>23</td>
+      <td>22</td>
+      <td>21</td>
+    </tr>
+  </table>
+  </body>
+</html>

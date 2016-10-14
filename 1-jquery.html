@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>jquery</title>
+    <style media="screen">
+      div {
+        width: 200px;
+        height: 200px;
+        background: blue;
+      }
+    </style>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('#button').click(function(){
+          $('#div').css("background-color","red");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="div"></div>
+    <button id="button" type="button" name="button">点击变红</button>
+  </body>
+</html>

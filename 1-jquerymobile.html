@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery Mobile</title>
+  <style media="screen">
+    div {
+      width: 200px;
+      height: 200px;
+      background: blue;
+    }
+  </style>
+
+</head>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/jquery-3.1.1.min.js"></script>
+<link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+<script type="text/javascript">
+  $(document).ready(function(){
+    $("#button").click(function(){
+      $("#div").css("background-color", "red");
+    });
+  });
+</script>
+
+<body>
+  <div id="div"></div>
+  <button id="button" type="button" name="button">点击变色</button>
+</body>
+</html>

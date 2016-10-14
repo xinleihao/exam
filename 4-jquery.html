@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>jquery</title>
+    <style media="screen">
+      div {
+        width: 200px;
+        height: 200px;
+        background: blue;
+      }
+    </style>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+    <script type="text/javascript">
+      $(function(){
+        $("#button").button().click(function(){
+          if($("#div").is(":hidden")){
+            $("#div").show("shake", {direction: 'right'}, 2000, function(){
+            console.log("OK");
+          });
+          }else{
+            $('div').hide("shake", {direction: 'right'}, 2000, function(){
+              console.log("OK");
+            });
+          };
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <button id="button" type="button" name="button">隐藏/显现</button>
+    <hr/>
+    <div id="div"></div>
+  </body>
+</html>
